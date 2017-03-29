@@ -1,0 +1,145 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+#footer {
+  background-color: #f4f4f4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid rgb(238, 238, 238);
+}
+
+#head {
+  text-align: right;
+  margin-right: 20px;
+  padding-bottom: 50px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+#head li {
+  display:inline-block;
+  margin-left: 9px;
+  margin-right: 12px;
+}
+
+#footer li {
+  display:inline-block;
+  margin-left: 9px;
+  margin-right: 12px;
+}
+
+li {
+  display: inline;
+}
+
+.left {
+  float:left;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.right {
+  float:right;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#logo {
+  text-align: center;
+  height: auto;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+ul > li > img {
+  padding-top: 3px;
+  padding-right: 3px;
+  opacity: 0.8;
+  vertical-align: middle;
+}
+
+ul > li > img:hover {
+  opacity: 1;
+}
+
+#search {
+  -webkit-appearance: none;
+  width: 600px;
+  height: 40px;
+  border-radius: 1px;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0 2px 2px rgb(203, 203, 203);
+  line-height: normal;
+  background-image: url("https://infogalactic.com/w/images/2/22/Google_microphone_logo.png");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 14px;
+}
+
+#search:hover {
+  box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+#srch {
+  text-align: center;
+}
+
+center {
+  display: block;
+}
+
+#luckybtn {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: #757575;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#searchbtn {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: #757575;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#luckybtn:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+}
+
+#searchbtn:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input[type="search"]
+{
+    padding: 14px;
+    font-size:18px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+li { cursor: pointer; cursor: hand; }
